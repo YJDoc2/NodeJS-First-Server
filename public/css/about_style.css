@@ -1,0 +1,23 @@
+.aboutContent{
+  margin: 20px;
+  padding: 20px;
+  background: #00743f;
+
+}
+.aboutContent p{
+  padding: 25px;
+  border: #000 2px solid;
+}
+
+@media (min-width:786px){
+
+  .aboutContent {
+    display: flex;
+    height: 100%;
+  }
+  .aboutContent p{
+    padding: 25px;
+    margin: 10px;
+  }
+
+}
